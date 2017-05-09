@@ -53,8 +53,8 @@ var Countdown = React.createClass({
     this.setState({countdownStatus: newStatus})
   },
 
-  render: function () {
 
+  render: function () {
     var { count, countdownStatus } = this.state;
 
     var renderControlArea = () => {
